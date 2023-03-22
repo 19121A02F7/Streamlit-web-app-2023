@@ -1,0 +1,10 @@
+streamlit_option_menu
+pandas
+openpyxl
+plotly
+streamlit_login_auth_ui
+matplotlib
+seaborn
+base64
+Pillow
+stegano
