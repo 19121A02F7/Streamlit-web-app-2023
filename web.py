@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit_option_menu import option_menu
 import pandas as pd  # pip install pandas openpyxl
 import plotly.express as px
 from streamlit_login_auth_ui.widgets import __login__
@@ -17,7 +16,7 @@ import seaborn as sns
 import base64
 from PIL import Image
 from stegano import lsb
-
+from streamlit_option_menu import option_menu
 
 st.set_page_config(page_title="Smart grid data",
                        page_icon=":zap:",
