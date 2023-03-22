@@ -1,0 +1,10 @@
+pandas
+plotly
+streamlit
+seaborn
+option_menu
+plotly
+matplotlib
+stegano
+pillow
+base64
