@@ -130,7 +130,7 @@ if LOGGED_IN == True:
 
         @st.cache_data()
         def get_data_from_csv():
-            df = pd.read_csv('smart.csv')
+            df = pd.read_csv('Book1.csv')
             #add hour column
             df["hour"]=pd.to_datetime(df["Time"], format="%H:%M:%S").dt.hour
             return df
